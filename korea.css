@@ -1,0 +1,110 @@
+.korea{
+    display:inline-block;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.31);
+    background-color: white;
+    top: 0; right: 0; left: 0; bottom: 0;
+    margin: auto;
+    
+    
+}
+
+
+    
+    
+
+.ying-yang {
+    
+    position: absolute;
+    display: inline-block;
+    background: blue;
+    border-color: red;
+    border-style: solid;
+    width: 50px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 25px 0 0 0;
+    left:0 ; top: 0; right: 0; bottom: 0;
+    margin:auto;
+    transform: scale(0.3);
+    
+    
+}
+
+.ying-yang:before {
+    
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    bottom: 50%; 
+    left:0;
+    
+}
+
+.ying-yang:after{
+    
+   content: "";
+   position: absolute;
+   background-color: blue;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   right:0;
+   bottom: 50%;    
+}
+    
+.tl{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 15%;
+  top: 20%;
+  border: 1px solid white;
+  background-image: repeating-linear-gradient(transparent 0 10%, black 10% 30%);
+  transform: rotateZ(-45deg);
+  transform-origin: center;
+    
+        
+}
+
+.br{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 16%;
+  bottom: 21%;
+  border: solid 1px white;
+  border-style: solid;
+  background-image: repeating-linear-gradient(90deg, transparent 0 45%, white 45% 55%, transparent 45% 100%), repeating-linear-gradient(transparent 0 10%, black 10% 30%);
+  transform: rotate(-45deg);
+    
+    
+}
+
+.tr{
+  position: absolute;  
+  top: 21%;
+  right: 16%;
+  width: 10px;
+  height: 10px;
+  background-image: repeating-linear-gradient(transparent 0 40%, black 40% 60%, transparent 60% 100%), repeating-linear-gradient(90deg, transparent 0 45%, white 45% 55%, transparent 45% 100%), repeating-linear-gradient(transparent 0 10%, black 10% 30%, transparent 30% 70%, black 70% 90%, transparent 90% 100%);
+  transform: rotate(45deg);
+    
+}
+
+
+.bl{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 16%;
+  bottom: 21%;
+  background-image: repeating-linear-gradient(transparent 0 10%, black 10% 30%, transparent 30% 70%, black 70% 90%, transparent 90% 100%), repeating-linear-gradient(90deg, transparent 0 45%, white 45% 55%, transparent 45% 100%), repeating-linear-gradient(transparent 0 40%, black 40% 60%, transparent 60% 100%);
+  transform: rotate(45deg);
+}

@@ -1,0 +1,58 @@
+.syria{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.31);
+    border-radius: 50%;
+    overflow: hidden;
+    top: 0; right: 0; left: 0; bottom: 0;
+    margin: auto;
+}
+
+.syria:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color:red;
+    width: 100%;
+    height: 33.33%;
+}
+
+.syria:after {
+    content:"";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 33.33%;
+}
+
+
+.greenstar{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 10%;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.greenstar2{
+    
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 10%;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
